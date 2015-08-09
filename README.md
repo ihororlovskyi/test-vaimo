@@ -1,7 +1,3 @@
-# Ihor Orlovskyi
+# Vaimo Front-ent Test
 
-Web development of Ihor Orlovskyi portfolio site
-
-Actual version here [ihororlovskyi.com](http://ihororlovskyi.com)
-
-Proudly hosted by [GitHub Pages](https://pages.github.com)
+Web development of Vaimo front-ent test task
