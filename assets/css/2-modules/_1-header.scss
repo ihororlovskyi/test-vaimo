@@ -27,9 +27,9 @@
 				background: #3ab3b7;
 
 				[class^="icon-"] {
-					float: right;
-					margin-top: 2px;
-
+					position: absolute;
+					top: 9px;
+					right: 13px;
 				}
 
 				&:hover {
