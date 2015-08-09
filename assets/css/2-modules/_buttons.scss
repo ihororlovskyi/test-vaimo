@@ -1,0 +1,46 @@
+/*-------------------------------------------------------------------------*/
+/* # BUTTONTS
+/*-------------------------------------------------------------------------*/
+.btn {
+	display: inline-block;
+	border: 0;
+	border-radius: 3px;
+	font-size: 12px;
+	background: #3bc0c3;
+	color: #fff;
+	box-shadow: none;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	outline: none;
+
+	&:focus,
+	&:hover,
+	&:active {
+		outline: none;
+	}
+	&:active {
+		box-shadow: none;
+	}
+	&:hover {
+		color: #fff;
+		background: #314350;
+		text-decoration: none;
+	}
+
+	&.btn-block {
+		display: block;
+	}
+
+}
+
+input[type="submit"].btn {
+	outline: none;
+
+	&:focus,
+	&:hover,
+	&:active {
+		outline: none;
+	}
+}

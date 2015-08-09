@@ -1,0 +1,42 @@
+/*-------------------------------------------------------------------------*/
+/* # TABS
+/*-------------------------------------------------------------------------*/
+.tabs {
+	margin-bottom: 60px;
+
+	.nav-tabs {
+		border-bottom: 4px solid #0f1922;
+		margin-bottom: 15px;
+
+		>li {
+			margin-bottom: 0;
+
+			> a {
+				text-align: center;
+				border: none;
+				font-weight: 700;
+				font-size: 12px;
+				text-transform: uppercase;
+				background: #edf1f2;
+				color: #314350;
+				margin-right: 5px;
+				padding: 7px 16px;
+			}
+
+			&:hover > a,
+			&.active > a {
+				border: none;
+				background: #314350;
+				color: #fff;
+			}
+		}
+	}
+
+	.tab-content {
+		p {
+			font-size: 12px;
+			@include columns(3);
+		}
+	}
+}
+

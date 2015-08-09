@@ -1,0 +1,105 @@
+/*-------------------------------------------------------------------------*/
+/* # SELECTBOX
+/*-------------------------------------------------------------------------*/
+.selectBox-dropdown {
+	min-width: 105px;
+	position: relative;
+	text-decoration: none;
+	text-align: left;
+	outline: none;
+	vertical-align: middle;
+	display: inline-block;
+	cursor: default;
+	font-size: 11px;
+	line-height: 16px;
+	cursor: pointer;
+	text-transform: uppercase;
+	color: #edf1f2;
+	background: #b6c2c9;
+	border: none;
+	border-radius: 5px;
+	padding: 3px 30px 3px 10px;
+
+	&:focus,
+	&:focus .selectBox-arrow {
+		border-color: #999;
+		outline: none;
+	}
+
+	.selectBox-label {
+		float: left;
+		display: block;
+		white-space: nowrap;
+		color: #fff;
+	}
+
+	.selectBox-arrow {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 18px;
+		height: 100%;
+
+		&:after {
+			position: absolute;
+			color: #fff;
+			left: 0;
+			top: 50%;
+			font-family: 'icomoon';
+			content: "\f0d7";
+			font-weight: 700;
+			@include transform(translateY(-50%));
+		}
+	}
+}
+
+.selectBox-dropdown-menu {
+	position: absolute;
+	z-index: 99999;
+	min-width: 105px;
+	min-height: 1em;
+	background: #b6c2c9;
+	overflow: auto;
+	overflow: visible;
+	// -webkit-overflow-scrolling: touch;
+	padding: 7px 0;
+	list-style: none;
+	margin: 9px 0 0;
+	border-radius: 4px;
+
+	&:after {
+		content: '';
+		display: block;
+		width: 0;
+		height: 0;
+		position: absolute;
+		right: 7px;
+		border-left: 8px solid transparent;
+		border-right: 8px solid transparent;
+		bottom: 100%;
+		border-bottom: 8px solid #b6c2c9;
+	}
+
+	&.selectBox-options {
+		li {
+			a {
+				display: block;
+				cursor: pointer;
+				padding: 3px 10px;
+				white-space: nowrap;
+				overflow: hidden;
+				color: #fff;
+				font-size: 11px;
+				text-transform: uppercase;
+
+				&:hover {text-decoration: none;}
+			}
+			&.selectBox-hover a,
+			&.selectBox-selected a {
+				color: #fff;
+				background: #314350;
+			}
+		}
+	}
+}
+

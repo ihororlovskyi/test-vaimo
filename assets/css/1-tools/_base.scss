@@ -1,0 +1,45 @@
+/*-------------------------------------------------------------------------*/
+/* # BASE
+/*-------------------------------------------------------------------------*/
+body {
+	margin: 0;
+	background: #fff;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 970px;
+	}
+}
+
+
+/**
+* typography
+* ----------------------------------------------------------------------------
+*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+h1 {
+	font-size: 35px;
+}
+h2 {
+	font-size: 31px;
+}
+h3 {
+	font-size: 24px;
+}
+
+
+/**
+* links
+* ----------------------------------------------------------------------------
+*/
+a {
+	&:focus {
+		outline: none;
+		text-decoration: none;
+	}
+}
+

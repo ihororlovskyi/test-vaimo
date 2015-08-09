@@ -1,0 +1,33 @@
+/*-------------------------------------------------------------------------*/
+/* # ABOUT STORE
+/*-------------------------------------------------------------------------*/
+.about-store {
+	margin-bottom: 20px;
+
+	.section-header {
+		position: relative;
+		margin-bottom: 20px;
+		text-align: center;
+
+		&:before {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 50%;
+			width: 100%;
+			height: 2px;
+			margin-top: -1px;
+			background: #314350;
+		}
+
+		h3 {
+			padding: 0 17px;
+			position: relative;
+			display: inline-block;
+			background: #fff;
+			text-transform: uppercase;
+			margin: 0;
+		}
+	}
+}
+

@@ -1,0 +1,82 @@
+/*-------------------------------------------------------------------------*/
+/* # FONT ICONS
+/*-------------------------------------------------------------------------*/
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-iaop7s');
+	src:url('../fonts/icomoon.eot?#iefix-iaop7s') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?-iaop7s') format('truetype'),
+		url('../fonts/icomoon.woff?-iaop7s') format('woff'),
+		url('../fonts/icomoon.svg?-iaop7s#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+/**
+* Font Awesome http://fontawesome.io
+* ----------------------------------------------------------------------------
+*/
+.icon-search:before {
+	content: "\f002";
+}
+.icon-envelope-o:before {
+	content: "\f003";
+}
+.icon-check:before {
+	content: "\f00c";
+}
+.icon-close:before {
+	content: "\f00d";
+}
+.icon-exclamation-triangle:before {
+	content: "\f071";
+}
+.icon-shopping-cart:before {
+	content: "\f07a";
+}
+.icon-twitter:before {
+	content: "\f099";
+}
+.icon-facebook:before {
+	content: "\f09a";
+}
+.icon-caret-down:before {
+	content: "\f0d7";
+}
+.icon-caret-right:before {
+	content: "\f0da";
+}
+.icon-linkedin:before {
+	content: "\f0e1";
+}
+.icon-angle-left:before {
+	content: "\f104";
+}
+.icon-angle-right:before {
+	content: "\f105";
+}
+.icon-spinner:before {
+	content: "\f110";
+}
+.icon-chevron-circle-left:before {
+	content: "\f137";
+}
+.icon-chevron-circle-right:before {
+	content: "\f138";
+}
+
