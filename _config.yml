@@ -1,6 +1,6 @@
 
 # Build settings
-baseurl: 
+baseurl: /test-vaimo
 markdown: kramdown
 permalink: /:title/
 
